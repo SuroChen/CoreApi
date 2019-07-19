@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CoreApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")]//这是控制器的路由地址
     [ApiController]
     public class ValuesController : ControllerBase
     {
